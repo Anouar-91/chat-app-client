@@ -1,4 +1,4 @@
-export const host = "http://localhost:3000";
+export const host = "https://lineup-chat-app.herokuapp.com";
 export const registerRoute = `${host}/api/user/register`;
 export const loginRoute = `${host}/api/user/login`;
 export const setAvatarRoute = `${host}/api/user/avatar`;

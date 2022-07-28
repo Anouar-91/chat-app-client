@@ -120,7 +120,7 @@ const Container = styled.div`
       }
     }
     .selected {
-      background-color: #9a86f3;
+      background-color: #f19215;
     }
   }
 
