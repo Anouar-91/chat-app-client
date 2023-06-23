@@ -29,7 +29,7 @@ const Button = styled.button`
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background-color: #f19215;
+  background-color: #7a2048;
   border: none;
   cursor: pointer;
   svg {

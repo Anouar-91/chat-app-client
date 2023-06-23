@@ -22,7 +22,7 @@ function Contacts({ contacts, currentUser , changeChat}) {
             {currentUserImage && currentUserName && (
                 <Container>
                     <div className="brand">
-                        <img src={Logo} alt="logo" />
+                       {/*  <img src={Logo} alt="logo" /> */}
                         <h3>LineUp</h3>
                     </div>
                     <div className="contacts">
@@ -69,7 +69,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color: #1e3d59;
   .brand {
     display: flex;
     align-items: center;
@@ -120,12 +120,12 @@ const Container = styled.div`
       }
     }
     .selected {
-      background-color: #f19215;
+      background-color: #7a2048;
     }
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color: #408ec6;
     display: flex;
     justify-content: center;
     align-items: center;
