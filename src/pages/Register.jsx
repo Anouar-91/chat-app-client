@@ -34,8 +34,11 @@ function Register() {
         password
       });
       if (data.status === false) {
-        console.log(data,"data")
-        toast.error("Un problème a été rencontré !", toastOptions)
+        if(data.message == "Username already used"){
+          toast.error("Email déjà utilisé !", toastOptions)
+        }else{
+          toast.error("Un problème a été rencontré !", toastOptions)
+        }
       }
       if (data.status === true) {
         toast.success("Inscription réussi !", toastOptions)
