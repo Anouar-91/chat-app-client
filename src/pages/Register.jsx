@@ -34,6 +34,7 @@ function Register() {
         password
       });
       if (data.status === false) {
+        console.log(data,"data")
         toast.error("Un problème a été rencontré !", toastOptions)
       }
       if (data.status === true) {
